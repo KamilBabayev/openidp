@@ -28,7 +28,10 @@ jobs:
         echo "show me current directory"
         ls -ltr
         tree
-        .demo/openidp
+        ls demo
+        cd demo
+        ls
+        # .demo/openidp
         go build -o demo -v ./...
 
     - name: Test
