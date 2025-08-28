@@ -31,7 +31,7 @@ jobs:
         tree
         echo "after tree"
         ls demo
-        "after ls demo"
+        echo "after ls demo"
         # cd demo
         ls
         # .demo/openidp
