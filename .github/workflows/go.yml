@@ -23,7 +23,11 @@ jobs:
 
     - name: Build
       run: | 
-        mkdir -p ./demo
+        pwd
+        echo "show me current directory"
+        ls -ltr
+        tree
+        # mkdir -p ./demo
         go build -o demo -v ./...
 
     - name: Test
