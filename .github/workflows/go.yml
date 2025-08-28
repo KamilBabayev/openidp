@@ -36,8 +36,10 @@ jobs:
         ls
         # .demo/openidp
         go build -o demo -v ./...
+        echo "show content"
+        ls demo
 
     - name: Test
       run: |
-        ./demo/server
+        ./demo/openidp
         go test -v ./...
